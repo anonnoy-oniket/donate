@@ -161,21 +161,21 @@ hr {
 
 /* section-3 */
 
-.how-to-contribute{
+.how-to-contribute {
     padding-left: 90px;
 }
 
-.how-to-contribute img{
+.how-to-contribute img {
     width: 456px;
     height: 477px;
 }
 
-.contribute{
+.contribute {
     width: 500px;
     height: 550px;
 }
 
-.contribute-container{
+.contribute-container {
     display: flex;
     gap: 200px;
     margin-top: 120px;
@@ -195,7 +195,59 @@ hr {
     line-height: 28px;
 }
 
-.how-to-contribute .btn-primary{
+.how-to-contribute .btn-primary {
     margin-top: 30px;
 }
 
+/* section-4 */
+
+.get-mail {
+    background: #FFF4D6;
+    width: 810px;
+    height: 100px;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.get-mail input {
+    color: #AA9F9F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    width: 275px;
+    height: 52px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: var(--default-black, #0B0D17);
+    height: 150px;
+    margin-top: 130px;
+}
+
+footer h3 {
+    color: #FF5959;
+    font-size: 36px;
+    font-family: Lobster;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    color: var(--text-gray-300, #D9DBE1);
+    font-size: 14px;
+    font-family: Manrope;
+    line-height: 24px;
+}
+
+footer div{
+    padding-top: 10px;
+}

@@ -52,6 +52,10 @@ html {
 
 /* section-1 */
 
+.get-donation {
+    margin-bottom: 130px;
+}
+
 .donation-title {
     font-size: 45px;
     font-weight: 700;
@@ -102,9 +106,96 @@ html {
     line-height: 28px;
 }
 
-hr{
+hr {
     margin-bottom: 30px;
 }
 
 /* section-2 */
+
+.donation-plan {
+    margin-bottom: 112px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    padding-left: 90px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 360px;
+    height: 352px;
+    padding-top: 65px;
+    padding-left: 25px;
+}
+
+.card-1 {
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+}
+
+.card-2 {
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+}
+
+.card-3 {
+    border-radius: 5px;
+    background: #FFF4D6;
+}
+
+.card-container h3 {
+    color: #121212;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.card-container p {
+    color: #707070;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+/* section-3 */
+
+.how-to-contribute{
+    padding-left: 90px;
+}
+
+.how-to-contribute img{
+    width: 456px;
+    height: 477px;
+}
+
+.contribute{
+    width: 500px;
+    height: 550px;
+}
+
+.contribute-container{
+    display: flex;
+    gap: 200px;
+    margin-top: 120px;
+}
+
+.contribute-container h3 {
+    color: #121212;
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.contribute-container p {
+    color: #707070;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 28px;
+}
+
+.how-to-contribute .btn-primary{
+    margin-top: 30px;
+}
 
